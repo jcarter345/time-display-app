@@ -24,10 +24,6 @@ Function Update-TimeDisplay {
     #$TimeDisplay.Content = (get-date -Format "HH:mm:ss")
     return (get-date -Format "HH:mm:ss")
 }
-
-function Close-TimeApp {
-        #$window
-}
 #endregion 
 
 
