@@ -6,11 +6,11 @@
 Add-Type -AssemblyName PresentationCore, PresentationFramework
 
 $Xaml = @"
-<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Width="800" Height="400">
+<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Width="125" Height="175">
 <Grid>
- <Button Content="Update Time" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="292,186,0,0" Name="UpdateDisplay"/>
-<Button Content="Close App" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="292,225,0,0" Name="CloseApp"  IsCancel="True"/>
-<Label VerticalAlignment="Top" Content="Label" Margin="292,123,0,0" Name="TimeDisplay"/>
+ <Button Content="Update Time" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="25,75,0,0" Name="UpdateDisplay"/>
+<Button Content="Close App" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="25,100,0,0" Name="CloseApp"  IsCancel="True"/>
+<Label VerticalAlignment="Top" Content="Label" Margin="25,25,0,0" Name="TimeDisplay"/>
 </Grid></Window>
 "@
 
